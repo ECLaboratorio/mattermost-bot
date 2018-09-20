@@ -1,0 +1,19 @@
+{
+  "name": "eclaboratorio/mattermost-bot",
+  "description": "Collection of classes to implement Incomming Webhooks, Outgoing Webhooks and Slash commandas for mattermost using PHP",
+  "authors": [
+    {
+      "name": "Iñaki Soria",
+      "email": "your@name.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "MattermostBot": "src/"
+    }
+  }
+}
